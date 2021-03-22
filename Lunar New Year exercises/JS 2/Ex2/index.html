@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <style type="text/css">
+        h1{
+            color: red;
+        }
+        .container{
+            text-align: center;
+        }
+    </style>
+    <title>Ex 2</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Kiểm tra thuế bạn cần phải nộp</h1>
+        <label for="salary">Lương của bạn</label>
+        <input type="text" name="salary" id="salary" class="form-control"><br>
+        <input type="button" onclick="tax()" class="btn btn-success" value="kiểm tra"><br>
+        <p id="result"></p>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

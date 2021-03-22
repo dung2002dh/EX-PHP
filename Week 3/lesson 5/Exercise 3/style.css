@@ -1,0 +1,65 @@
+.container{
+	padding-top: ;
+}
+#femail{
+	height:30px;
+	width: 60%;
+	display: inline;
+	position: relative;
+	top: 16px;
+
+}
+.pic{
+	height: 30px;
+}
+button{
+	position: relative;
+	top: 10px;
+}
+.btn{
+	background-color: #00FFFF;
+}
+.btn img{
+    width: 20px;
+    height: 20px;
+}
+.container table{
+	background-color: black;
+	color: #ABABAB;
+	margin: auto;
+	padding: 30px;
+}
+.container table tr td{
+	padding-left: 60px;
+}
+.col-left{
+	position: relative;
+	bottom: 28px;
+	padding-right: 200px;
+	color: gray;
+}
+.col-right{
+	position: relative;
+	bottom: 19px;
+}
+.square{
+ 	margin-top: 20px;
+	width: 30%;
+	background-color: #7986CB;
+	text-align: center;
+	font-size: 25px;
+	padding: 10px;
+	color: white;
+}
+.grondb{
+	background-color: red;
+}
+.form-group .form-cotrol{
+	background-color:#808080;
+}
+td .col-left {
+	display: block;
+}
+.bottom {
+	background-color: 	#333333;
+}

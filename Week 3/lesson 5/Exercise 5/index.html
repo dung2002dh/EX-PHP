@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 5</title>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>This is a WebPage using Bootstrap 4</title>
+	<!-- Import Boostrap css, js, font awesome here -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">       
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+	<table id="form_create_cv">
+		<tr class="themes">
+			<td>
+				<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1"></li>
+		<li data-target="#slides" data-slide-to="2"></li>		
+		<li data-target="#slides" data-slide-to="3"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="https://leanhtien.net/wp-content/uploads/2019/06/hoc-lap-trinh-css-1024x576.jpg">
+		</div>
+		<div class="carousel-item">
+			<img src="https://doanvanhai.com/wp-content/uploads/2020/12/tranh-css-lang-phi-trong-du-an-cua-ban-thiet-ke-web.png">
+		</div>
+		<div class="carousel-item">
+			<img src="https://tuandc.com/wp-content/uploads/2017/07/use-CSS.png">
+		</div>
+		<div class="carousel-item">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvXly_5j-aFesMlwK_HnJ552QooXQxH7FEFw&usqp=CAU">
+		</div>
+	</div>
+</div>
+			</td>
+			<td class="signIn">
+				<div class="enter_info">
+					<form>
+					<p>
+						<label class="label_color label_bold">Họ tên <b class="star_red">*</b></label><br>
+						<input type="text" name="Họ_tên" id="Họ_tên" class="input_width" required>
+					</p>
+					<p>
+						<label class="label_color label_bold">Email <b class="star_red">*</b></label><br>
+						<input type="email" name="Email" id="email" class="input_width" required>
+					</p>
+					<p>
+						<label class="label_color label_bold">Mật khẩu <b class="star_red">*</b></label><br>
+						<input type="password" name="Password" id="password" class="input_width" required>
+					</p>
+					<p>
+						<label class="label_color label_bold">Mã xác thực <b class="star_red">*</b></label>
+						<img class="codeword" src="./images/mxt.jpg"><br>
+						<input type="text" name="codeWord" id="codeWord" class="input_width" required>
+					</p>
+					<button type="button" class="btn btn-success">ĐĂNG KÝ MỞ TÀI KHOẢN</button>
+					<p class="question_center">Bạn đã có tài khoản?</p>
+					<button type="button" class="btn">ĐĂNG NHẬP</button></p>
+				</form>
+				</div>
+			</td>
+		</tr>
+	</table>
+	</div>
+</body>
+</html>

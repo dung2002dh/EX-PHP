@@ -1,0 +1,12 @@
+.btn-show-result {
+  background-color: #007FFF;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.container{
+	text-align: center;
+}

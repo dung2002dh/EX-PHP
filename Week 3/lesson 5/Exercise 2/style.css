@@ -1,0 +1,22 @@
+.container{
+	padding-top:5%;
+}
+p.nomal{
+	font-style: italic;
+	font-weight: bold;
+	opacity: 0.8;
+}
+p.title{
+	font-weight: bold;
+	text-align: center;
+	color:#cdcc00;
+	font-size: 40px;
+}
+img{
+	width:250px;
+	height:100px;
+}
+table tr td{
+	height: 300px;
+	text-align: center;
+}

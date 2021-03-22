@@ -1,0 +1,14 @@
+$(document).ready(function(){
+            $(document).on("click","#check-all",function(){
+                if($(this).prop("checked")===true){
+                    $(this).nextAll().prop("checked",true);
+                }else{
+                    $(this).nextAll().prop("checked",false);
+                }
+            })
+            $("input:not(:first)").on("click",function(){
+                if($(this).prop("checked")===false){
+                    $("input:first").prop("checked",false);
+                }
+            })
+        })

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head><title>Ex2</title></head>
+<body>
+
+<h1 style="color:purple" >A Simple Forms</h1>
+
+<h2 style="color:#FF4E5D" >Form fundamental</h2>
+
+<fieldset>
+		<legend>Customer Info</legend>
+		<br>
+		<form>
+			Name: <input type="text" name="Name" placeholder="Enter your name" size="50">
+		<br><br>
+			Telephone: <input type="number" name="Telephone" placeholder="Pattern: 1-234-567-8910" size="50">
+		<br>
+		<br>
+		<form>
+			<label for="email">E-mail address:</label> <input type="email" id="email" name="email" placeholder="Enter your email address" size="50">
+		<br><br>
+			Gender:
+			<input type="radio" name="Male" value="Male"><label for="Male">Male</label> 
+			<input type="radio" name="Female" value="Female"><label for="Female">Female</label>
+		<br><br>
+			Hobbies: 
+			<input type="checkbox" name="Basketball" value="Basketball"><label for="Basketball">Basketball</label>
+			<input type="checkbox" name="Football" value="Football"><label for="Football">Football</label>
+			<input type="checkbox" name="Badminton" value="Badminton"><label for="Badminton">Badminton</label>
+		</form>
+	</fieldset>
+    <fieldset>
+		<legend>Books</legend>
+		<br>
+		<form>
+			Name: <input type="text" name="Name">
+			Quantity (Maximum 5): <input type="number" name="Quantity" min="1" max="5">
+		</form>
+	</fieldset>
+	<button type="Submit">Submit</button>
+	<button type="Reset">Reset</button>
+</body>
+</html>

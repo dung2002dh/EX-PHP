@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <title>Exercise 4</title>
+</head>
+<body>
+    <div class="container">
+        <form >
+            <h3 class="title_form">Đăng kí thành viên</h3>
+            <p>Để đăng kí thành viên, bạn cần khai báo tất cả các ô trống dưới đây</p>
+            <input type="text" name="" id="first_Name" placeholder="Họ và tên đệm" required> <br>
+            <input type="text" name="" id="main_Name" placeholder="Tên" required> <br>
+            <input type="text" name="" id="account_Name" placeholder="Tên đăng nhập" required> <br>
+            <input type="text" name="" id="Email" placeholder="Email" required> <br>
+            <input type="text" name="" id="password" placeholder="Mật khẩu" required> <br>
+            <input type="text" name="" id="confirm_Pass" placeholder="Xác nhận mật khẩu" required>
+            <div class="gender">
+                <p>Giới tính</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">N/A</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Nam</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Nữ</label>
+            </div>
+            <input type="date" name="" id="birthday" placeholder="Ngày tháng năm sinh" required> <br>
+            <textarea name="" id="sign" cols="30" rows="10" placeholder="Chữ kí"></textarea> <br>
+            <input list="question" name="question" placeholder="Câu hỏi bảo mật">
+            <datalist id="question">
+            <option value="Bạn mong muốn gì vào năm 25 tuổi?">
+            <option value="Tên của bố bạ là gì?">
+            <option value="Thế giới có bao nhiêu người?">
+            <option value="Tại sao bạn vẫn một mình?">
+            <option value="Điều ước của bạn là gì?">
+            </datalist> 
+            <br>
+            <input type="text" name="" id="answer" placeholder="Trả lời câu hỏi" required> <br>
+            <div class="confirm">
+                <input type="checkbox" name="" id="confirm_Rules">
+                <p>Tôi đồng ý với </p>
+                <button>Quy định đăng kí thành viên</button>
+            </div>
+            <div class="send_form">
+                <input type="reset" name="" id="reset" value="Thiết lập lại">
+            <input class="sign" type="submit" name="" id="submit" value="Đăng kí thành viên">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

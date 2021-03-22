@@ -1,0 +1,52 @@
+
+.container{
+    position: relative;
+    background-color: #DDD7DE;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 32px;
+}
+.title_form{
+    text-align: center;
+}
+form{
+    margin: 15px 10px;
+}
+input {
+    width: 99%;
+    height: 20px;
+    border: none;
+    border-radius: 2px;
+
+}
+.gender p{
+    display: inline;
+    margin-right: 200px;
+}
+.gender input{
+    width: 15px;
+}
+#sign{
+    width: 99%;
+    height: 20px;
+}
+.confirm{
+    text-align: center;
+}
+.confirm p{
+    display: inline;
+}
+.confirm input{
+    width: 15px;
+}
+.send_form{
+    text-align: center;
+}
+#reset,#submit{
+    width: 200px;
+}
+.send_form .sign{
+    background-color:#388CD1;
+    color: white;
+}
+

@@ -1,0 +1,74 @@
+main{ 
+    background-image: url(./images/background2.jpg); 
+    background-color: #dddddd;
+    min-height: 700px;
+    padding: 7.5px 15px;
+}
+.register-form{
+    width: 100%;
+    max-width: 450px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px dotted #cccccc;
+    border-radius: 10px;
+}
+.input-box select{
+    padding: 7.5px 15px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    outline: none;
+    font-size: 16px;
+    display: inline-block;
+    height: 40px;
+    color: #666666;
+    }
+.submit{
+    text-align: center;
+}
+.submit button{
+    width: 95%;
+}
+.repass{
+    width:60%;
+    }
+ span.title p{
+    font-size: 16px;
+    text-align: center;
+    }
+.fa-facebook{
+    color: white;
+    height: 30px;
+}
+.fa-google{
+    color:white;
+    height: 30px;
+}
+.fa-phone{
+    color:white;
+
+}
+span .signup-social-text{
+    color: white;
+}
+button.facebook{
+   background-color:#3b5998;
+   width: 110px;
+    height: 40px; 
+}
+button.google{
+    background-color:#dd4b39;
+    width: 110px;
+    height: 40px; 
+}
+button.phone{
+    background-color:#33CC66;
+    width: 110px;
+    height: 40px; 
+}
+label.bold{
+    color: #1E90FF;
+}
+p.question_center{
+    font-size: 36px;
+}

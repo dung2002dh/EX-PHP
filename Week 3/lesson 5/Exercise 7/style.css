@@ -1,0 +1,14 @@
+.container{
+	text-align: center;
+	padding-left: 50px;
+	padding-right:50px;
+	background-image:url(./picture/backgrounds.png);
+	width: 800px;
+	height:800px;  
+}
+.title{
+	font-family: 'Great Vibes', cursive;
+	font-size: 52px;
+	padding-top: 35px;
+}
+
