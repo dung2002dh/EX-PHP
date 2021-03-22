@@ -13,9 +13,9 @@
 			echo("<br>Password: " .$_SESSION['psw']);
 		}
 		else{
-			echo("thông tin tài khoản của bạn không chính xác");
+			echo("lỗi sesion không có sẵn");
 		}
 	  ?>
-	  <br><a href="index.php">Đăng xuất</a>	  
+	  <br><a href="login.php">Đăng xuất</a>	  
 </body>
 </html>
