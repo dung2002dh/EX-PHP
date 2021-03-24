@@ -7,7 +7,7 @@
 	<title>Practice 1</title>
 </head>
 <body>
-	<div class="container">
+	<div class="container" action="">
 		<form method="post">
 			User Name <input type="text" name="user" >
 			Password <input type="password" name="psw" >

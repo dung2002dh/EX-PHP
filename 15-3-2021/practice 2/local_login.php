@@ -9,7 +9,7 @@
 <body>
 	<?php
 		if(isset($_SESSION['user']) && isset($_SESSION['psw'])) {
-			echo("Thông tin tài khoản hoạc mật khẩu không chính xác");
+			echo("Thông tin tài khoản hoặc mật khẩu không chính xác");
 		}
 		else if(isset($_SESSION['user']) =="admin" && isset($_SESSION['psw']) =="admin") {
 			header('location : index.php');

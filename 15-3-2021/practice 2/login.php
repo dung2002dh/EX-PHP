@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div class="container">
-		<form method="post">
+		<form method="post" action="">
 			User Name <input type="text" name="user" >
 			Password <input type="password" name="psw" >
 			<input type="submit" name="login" value="Login">
